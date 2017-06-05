@@ -1,68 +1,10 @@
 .contact {
-  main {
-    text-align: left; 
-    section.hero { 
-      @include media($s-up) { 
-        @include span-columns(2);
-        padding: 1rem;
-        margin-bottom: 1.5rem;
-        h1 {
-          margin-bottom: 1.5rem;
-        }
-      }
-      @include media($l-up) {
-        @include span-columns(4);
-        padding: 1.5rem;
-        h1 {
-          margin-bottom: 2.5rem;
-        }
-      }
-      background-color: #ededed; 
-      color: $text;
-      div.hero-inner { 
-        @include media($l-up) {
-          @include span-columns(3 of 4);
-        }
-        p {
-          margin-top: 0px;
-          margin-bottom: .5rem
-        } 
-        p a {
-          color: $text;
-          text-decoration: none;
-          &:hover {
-            color: $myred;
-          }
-        }
-      }
-
-      .div-wrapper {
-        @include media($l-up) {
-          @include span-columns(3 of 4)
-        }
-      }
-
-      .map-wrapper {
-        margin-top: 2rem;
-        margin-bottom: 1.5rem; 
-      }
-
-      #googleMap iframe {
-         width: 100%;
-         z-index: 1;
-      }
-      #googleMap {
-        margin-top: 1.5rem;
-        @include media($s-up) {
-          height: 300px;
-        }
-        @include media($l-up) {
-          height: 500px;
-        }
-        
-      }
-      #googleMap img { max-width: none; }
-    } 
+  .hero {
+    @include hero;
+    border-bottom: 0;
+    @include media($l-up) {
+      padding-bottom: 2rem !important;
+    }
   }
 }
 

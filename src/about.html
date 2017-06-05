@@ -1,6 +1,8 @@
-{% assign people = site.people | sort:"order" %}
+---
 
-<main class="load">
+---
+
+{% assign people = site.people | sort:"order" %}
 
 {% for person in people %}
   <div class="square-index" style="background-image:url({{ person.photo_path }});background-size:cover">
@@ -13,4 +15,3 @@
   </div>
 {% endfor %}
 
-</main>

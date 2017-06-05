@@ -10,7 +10,7 @@ content_section:
       GE, a Worldwide Partner of the Olympic Games, was looking to stand out from the crowd of competing worldwide and national team partners.
 
       PS212 created a unique visual system for GE’s presence at the Vancouver, London, and Sochi Games—one that leverages GE’s corporate brand system to tell a relevant story of the Games. Each of the design systems that PS212 developed are different from each other but the primary story has remained the same—the lasting impression of athletes and infrastructure.​
-    image: 'https://source.unsplash.com/random/2000x1300'
+    image: 'https://images.unsplash.com/photo-1444894423756-1bb106dce5a7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&h=1300&fit=crop&s=93f21ae7ef0c3e8d625f2db6b25f678e'
 ---
 DO NOT ADD POST CONTENT HERE!
 

@@ -12,7 +12,7 @@ content_section:
       BNY Mellon asked PS212 to assess the digitization effort from a brand perspective. The program included the articulation or positioning of the technology platform, a registered brand name, and supporting language to help BNY Mellon tell a consistent, accurate story about this investment.
 
       The final name, NEXEN, is a coined term with the appropriate look, sound, and meaning. The name is a compound of familiar English words NEXt generation ENgine.​
-    image: 'https://source.unsplash.com/random/2000x1300'
+    image: 'https://images.unsplash.com/photo-1444894423756-1bb106dce5a7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&h=1300&fit=crop&s=93f21ae7ef0c3e8d625f2db6b25f678e'
 ---
 
 DO NOT ADD POST CONTENT HERE!

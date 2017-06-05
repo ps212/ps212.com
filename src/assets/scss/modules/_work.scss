@@ -1,6 +1,9 @@
 .work {
 
   main {
+    @include media($l-up) {
+      margin-top: 3.5rem;
+    }
     text-align: left;
     section.hero {
       @include hero;

@@ -1,5 +1,9 @@
 header {
   padding-top: 1.5rem; // overrides styles from _layouts.scss
+  @include media($l-up){
+    padding-bottom: 4.5rem;
+  }
+  border-bottom: 1px solid $myred;
   .logo {
     @include media($s-up){
       @include span-columns(2);

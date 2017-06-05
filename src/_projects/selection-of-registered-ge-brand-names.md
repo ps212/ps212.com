@@ -19,7 +19,7 @@ content_section:
       GE Appliances successfully engineered an intelligent water heater capable of using up to 62% less energy than previous generations. The notable innovation was, in part, the device’s ability to use warm ambient air to supplement traditional heating elements.
 
       PS212 created the GeoSpring name which is a reference to the product’s function—warm water— and benefit—environmental sensitivity.​
-    image: 'https://source.unsplash.com/random/2000x1300'
+    image: 'https://images.unsplash.com/photo-1444894423756-1bb106dce5a7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&h=1300&fit=crop&s=93f21ae7ef0c3e8d625f2db6b25f678e'
 ---
 
 DO NOT ADD POST CONTENT HERE!

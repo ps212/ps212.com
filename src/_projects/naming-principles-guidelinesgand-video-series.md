@@ -12,7 +12,7 @@ content_section:
       As part of the process, our team established the role of naming at GE, what to name, how to name, and with what tools. In addition to simplifying the previous guideline document from 48 pages down to nine, our team developed a naming toolkit complete with a supporting video series and decision trees.​
 
 
-    image: 'https://source.unsplash.com/random/2000x1300'
+    image: 'https://images.unsplash.com/photo-1444894423756-1bb106dce5a7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&h=1300&fit=crop&s=93f21ae7ef0c3e8d625f2db6b25f678e'
 ---
 
 DO NOT ADD POST CONTENT HERE!

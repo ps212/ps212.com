@@ -1,5 +1,21 @@
 .clients {
+  main {
+    @include media($l-up) {
+      margin-top: 3.5rem;
+      margin-bottom: 3rem;
+    }
+  }
 
+  .first-half, .second-half {
+    @include media($l-up) {
+      @include span-columns(2 of 4)
+    }
+    p {
+      color: $text;
+      margin-top: 0px;
+      margin-bottom: .5rem;
+    }
+  }
 
 
 }

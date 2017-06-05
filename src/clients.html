@@ -1,9 +1,24 @@
+---
+
+---
+
+{% assign totalClients = site.clients.size %}
+{% assign half = totalClients | times: 0.5 | ceil %}
+
+
 <section class="body">
 
-  {% for client in site.clients %}
+  <div class="first-half">
+    {% for client in site.clients limit: half %}
+    <p>{{client.title}}</p>
+    {% endfor %}
+  </div>
 
-
-  {% endfor %}
+  <div class="second-half">
+    {% for client in site.clients offset: half %}
+    <p>{{client.title}}</p>
+    {% endfor %}
+  </div>
 
 </section>
 
