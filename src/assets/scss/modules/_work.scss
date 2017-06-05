@@ -1,24 +1,5 @@
 .work {
 
-  .square-index {
-    @include square-index();
-    @include media($s-up) {
-      @include span-columns(1 of 2);
-      &:nth-of-type(2n) {
-        margin-right: 0;
-      }
-    }
-    @include media($l-up) {
-      @include span-columns(1 of 4);
-      &:nth-of-type(2n) {
-        margin-right: 2.026197811%;
-      }
-      &:nth-of-type(4n) {
-        margin-right: 0;
-      }
-    }
-  }
-
   main {
     text-align: left;
     section.hero {

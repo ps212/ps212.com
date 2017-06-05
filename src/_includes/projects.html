@@ -1,0 +1,20 @@
+<section class="projects">
+  {% assign liveprojects = site.projects | where:"draft","false" %}
+  {% assign projects = liveprojects | sort:"order" | reverse %}
+
+  {% for project in projects | limit: 16 %}
+
+  <div class="square-index" style="background-image:url({{ project.thumbnail_image }});background-size:cover">
+    {% if project.link %}<a href="{{project.url}}">{% endif %}
+      <div class="block-inner">
+        <p>{{ project.client }}</p>
+        <h2>{{ project.title }}</h2>
+        {% if project.link %}<p class="more">Read more</p>{% endif %}
+      </div>
+    {% if project.link %}</a>{% endif %}
+  </div>
+
+{% endfor %}
+</section>
+
+

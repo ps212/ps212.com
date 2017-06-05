@@ -1,20 +1,91 @@
-// .project {
+.project {
 
-//   main {
-//     text-align: left;
-//     section.hero {
-//       @include hero;
-//       border-bottom: 0px;
-//       h1 {
-//         margin-bottom: 0;
-//       }
-//     }
-//   }
-//   .body > p:first-child {
-//     margin-top: 0;
-//   }
+  main {
+    text-align: left;
+    section.hero {
+      @include hero;
+      border-bottom: 0px;
+      h1 {
+        margin-bottom: 0;
+      }
+    }
+  }
 
-// }
+  h5 {
+    margin: 2.5rem 0 .5rem 0;
+    color: $text;
+  }
+  h2 {
+    margin: 0 0 1.5rem 0;
+    color: $text;
+  }
+
+  .body > p:first-child {
+    margin-top: 0;
+  }
+
+  .body {
+    color: $text;
+    // margin-bottom: 1.5rem;
+    h1, p, ul, ol {
+      @include media($l-up) {
+        @include span-columns(3 of 4)
+      }
+    }
+    p {
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+    }
+    img {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    img:first-child {
+      margin-top: 0;
+    }
+    img:last-child {
+      margin-bottom: 0;
+    }
+    h5 {
+      margin: .5rem 0 0 0;
+      font-weight: bold;
+      a {
+        color: $text;
+        text-decoration: none;
+      }
+      span {
+        font-weight: normal;
+      }
+    }
+    ol {
+      list-style-type: decimal;
+    }
+    ul {
+      list-style-type: disc;
+    }
+    li {
+      margin-left: 1rem;
+      @include media($s-up) {
+        line-height: 1.5em;
+        font-size: 1rem;
+      }
+      @include media($l-up) {
+        line-height: 1.6em;
+        font-size: rem(18);
+      }
+      font-weight: 100;
+    }
+    @include media($s-up) {
+      @include media($l-up) {
+        @include span-columns(2 of 2)
+      }
+    }
+    @include media($l-up) {
+      @include span-columns(4 of 4)
+    }
+  }
+
+}
 
 
 
