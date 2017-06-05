@@ -2017,125 +2017,351 @@ header {
       .category .category ul.client ul.project li a:hover {
         color: #ed1417; }
 
-.project main {
+.work .square-index {
+  transition: all 0.2s ease;
+  display: inline-block;
+  position: relative;
+  background-color: #ededed;
+  font-size: 0.875rem;
+  margin-bottom: 1rem; }
+  .work .square-index a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .work .square-index a h2 {
+      transition: all 0.4s ease;
+      opacity: 1;
+      margin: 0;
+      text-decoration: none;
+      color: #335769;
+      position: relative;
+      z-index: 1; }
+    .work .square-index a h2.info {
+      font-weight: normal;
+      font-style: italic; }
+    .work .square-index a p {
+      transition: all 0.4s ease;
+      color: #335769; }
+    .work .square-index a:hover h2, .work .square-index a:hover p {
+      transition: all 0.4s ease;
+      color: white; }
+  .work .square-index h2 {
+    transition: all 0.4s ease;
+    opacity: 1;
+    margin: 0;
+    text-decoration: none;
+    color: #335769;
+    position: relative;
+    z-index: 1; }
+  .work .square-index h2.info {
+    font-weight: normal;
+    font-style: italic; }
+  .work .square-index p {
+    transition: all 0.4s ease;
+    color: #335769; }
+  .work .square-index:hover h2, .work .square-index:hover p {
+    transition: all 0.4s ease;
+    color: white; }
+  .work .square-index:before {
+    transition: all 0.4s ease;
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(230, 230, 230, 0.92); }
+  .work .square-index:hover:before {
+    transition: all 0.4s ease;
+    background-color: transparent; }
+  @media screen and (min-width: 6.25em) {
+    .work .square-index {
+      float: left;
+      display: block;
+      margin-right: 4.1362032824%;
+      width: 47.9318983588%; }
+      .work .square-index:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 48.0625em) {
+    .work .square-index {
+      float: left;
+      display: block;
+      margin-right: 2.026197811%;
+      width: 23.4803516417%; }
+      .work .square-index:last-child {
+        margin-right: 0; } }
+  .work .square-index:after {
+    padding-top: 100%;
+    display: block;
+    content: ''; }
+  .work .square-index a .more {
+    margin-bottom: 0;
+    border-bottom: 1px solid transparent;
+    position: absolute;
+    font-style: italic;
+    line-height: 1.2; }
+    @media screen and (min-width: 6.25em) {
+      .work .square-index a .more {
+        left: .5rem;
+        bottom: .5rem; } }
+    @media (min-width: 568px) and (max-width: 768px) {
+      .work .square-index a .more {
+        left: 1.5rem;
+        bottom: 1.5rem; } }
+    @media (min-width: 769px) and (max-width: 899px) {
+      .work .square-index a .more {
+        left: 1rem;
+        bottom: 1rem; } }
+    @media (min-width: 900px) {
+      .work .square-index a .more {
+        left: 1.5rem;
+        bottom: 1.5rem; } }
+  .work .square-index .block-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+    @media (min-width: 300px) and (max-width: 567px) {
+      .work .square-index .block-inner {
+        padding: .5rem; }
+        .work .square-index .block-inner h2 {
+          font-size: .6rem;
+          margin-top: .25em; }
+        .work .square-index .block-inner p {
+          font-size: .6rem;
+          margin-top: 0; }
+          .work .square-index .block-inner p.more {
+            margin-bottom: 0;
+            position: absolute; } }
+      @media screen and (min-width: 300px) and (max-width: 567px) and (min-width: 6.25em) {
+        .work .square-index .block-inner p.more {
+          left: .5rem;
+          bottom: .5rem; } }
+    @media (min-width: 568px) and (max-width: 666px) {
+      .work .square-index .block-inner {
+        padding: 1rem; }
+        .work .square-index .block-inner h2 {
+          font-size: 1rem;
+          margin-top: .35em; }
+        .work .square-index .block-inner p {
+          font-size: 1rem;
+          margin-top: 0; }
+          .work .square-index .block-inner p.more {
+            margin-bottom: 0;
+            position: absolute; } }
+      @media screen and (min-width: 568px) and (max-width: 666px) and (min-width: 6.25em) {
+        .work .square-index .block-inner p.more {
+          left: .5rem;
+          bottom: .5rem; } }
+    @media (min-width: 667px) and (max-width: 768px) {
+      .work .square-index .block-inner {
+        padding: 1.5rem; }
+        .work .square-index .block-inner h2 {
+          font-size: 1.1rem;
+          margin-top: .35em; }
+        .work .square-index .block-inner p {
+          font-size: 1rem;
+          margin-top: 0; }
+          .work .square-index .block-inner p.more {
+            margin-bottom: 0;
+            position: absolute; } }
+      @media screen and (min-width: 667px) and (max-width: 768px) and (min-width: 6.25em) {
+        .work .square-index .block-inner p.more {
+          left: 1.5rem;
+          bottom: 1.5rem; } }
+    @media (min-width: 769px) and (max-width: 960px) {
+      .work .square-index .block-inner {
+        padding: 1rem; }
+        .work .square-index .block-inner h2 {
+          font-size: 1.5vw;
+          margin-top: .35em; }
+        .work .square-index .block-inner p {
+          font-size: 1.3vw;
+          margin-top: 0; }
+          .work .square-index .block-inner p.more {
+            margin-bottom: 0;
+            position: absolute; } }
+      @media screen and (min-width: 769px) and (max-width: 960px) and (min-width: 6.25em) {
+        .work .square-index .block-inner p.more {
+          left: 1.5rem;
+          bottom: 1.5rem; } }
+    @media (min-width: 961px) and (max-width: 1199px) {
+      .work .square-index .block-inner {
+        padding: 1.5rem; }
+        .work .square-index .block-inner h2 {
+          font-size: 1.5vw;
+          margin-top: .35em; }
+        .work .square-index .block-inner p {
+          font-size: 1.3vw;
+          margin-top: 0; }
+          .work .square-index .block-inner p.more {
+            margin-bottom: 0;
+            position: absolute; } }
+      @media screen and (min-width: 961px) and (max-width: 1199px) and (min-width: 6.25em) {
+        .work .square-index .block-inner p.more {
+          left: 1.5rem;
+          bottom: 1.5rem; } }
+    @media (min-width: 1200px) {
+      .work .square-index .block-inner {
+        padding: 1.5rem; }
+        .work .square-index .block-inner h2 {
+          font-size: 1.1rem;
+          margin-top: .5em; }
+        .work .square-index .block-inner p {
+          font-size: 1rem;
+          margin-top: 0; }
+          .work .square-index .block-inner p.more {
+            margin-bottom: 0;
+            position: absolute; } }
+      @media screen and (min-width: 1200px) and (min-width: 6.25em) {
+        .work .square-index .block-inner p.more {
+          left: 1.5rem;
+          bottom: 1.5rem; } }
+  @media screen and (min-width: 6.25em) {
+    .work .square-index {
+      float: left;
+      display: block;
+      margin-right: 4.1362032824%;
+      width: 47.9318983588%; }
+      .work .square-index:last-child {
+        margin-right: 0; }
+      .work .square-index:nth-of-type(2n) {
+        margin-right: 0; } }
+  @media screen and (min-width: 48.0625em) {
+    .work .square-index {
+      float: left;
+      display: block;
+      margin-right: 2.026197811%;
+      width: 23.4803516417%; }
+      .work .square-index:last-child {
+        margin-right: 0; }
+      .work .square-index:nth-of-type(2n) {
+        margin-right: 2.026197811%; }
+      .work .square-index:nth-of-type(4n) {
+        margin-right: 0; } }
+
+.work main {
   text-align: left; }
-  .project main section.hero {
+  .work main section.hero {
     border-top: 1px solid #ed1417;
     border-bottom: 1px solid #ed1417;
     color: #335769;
     border-bottom: 0px; }
     @media screen and (min-width: 6.25em) {
-      .project main section.hero {
+      .work main section.hero {
         float: left;
         display: block;
         margin-right: 4.1362032824%;
         width: 100%;
         padding: 1rem 0; }
-        .project main section.hero:last-child {
+        .work main section.hero:last-child {
           margin-right: 0; } }
     @media screen and (min-width: 48.0625em) {
-      .project main section.hero {
+      .work main section.hero {
         float: left;
         display: block;
         margin-right: 2.026197811%;
         width: 100%;
         padding: 3rem 0; }
-        .project main section.hero:last-child {
+        .work main section.hero:last-child {
           margin-right: 0; } }
-    .project main section.hero h1 {
+    .work main section.hero h1 {
       margin-bottom: .5em; }
     @media screen and (min-width: 48.0625em) {
-      .project main section.hero div.hero-inner {
+      .work main section.hero div.hero-inner {
         float: left;
         display: block;
         margin-right: 2.026197811%;
         width: 74.4934505472%; }
-        .project main section.hero div.hero-inner:last-child {
+        .work main section.hero div.hero-inner:last-child {
           margin-right: 0; } }
-    .project main section.hero div.hero-inner p {
+    .work main section.hero div.hero-inner p {
       margin-top: 0px; }
-      .project main section.hero div.hero-inner p span a {
+      .work main section.hero div.hero-inner p span a {
         transition: all 0.2s ease;
         color: #ed1417;
         font-weight: 700;
         white-space: nowrap;
         text-decoration: none; }
-        .project main section.hero div.hero-inner p span a:hover {
+        .work main section.hero div.hero-inner p span a:hover {
           color: #335769; }
-    .project main section.hero h1 {
+    .work main section.hero h1 {
       margin-bottom: 0; }
 
-.project h5 {
+.work h5 {
   margin: 2.5rem 0 .5rem 0;
   color: #335769; }
 
-.project h2 {
+.work h2 {
   margin: 0 0 1.5rem 0;
   color: #335769; }
 
-.project .body > p:first-child {
+.work .body > p:first-child {
   margin-top: 0; }
 
-.project .body {
+.work .body {
   color: #335769;
   margin-bottom: 1.5rem; }
   @media screen and (min-width: 48.0625em) {
-    .project .body h1, .project .body p, .project .body ul, .project .body ol {
+    .work .body h1, .work .body p, .work .body ul, .work .body ol {
       float: left;
       display: block;
       margin-right: 2.026197811%;
       width: 74.4934505472%; }
-      .project .body h1:last-child, .project .body p:last-child, .project .body ul:last-child, .project .body ol:last-child {
+      .work .body h1:last-child, .work .body p:last-child, .work .body ul:last-child, .work .body ol:last-child {
         margin-right: 0; } }
-  .project .body p {
+  .work .body p {
     margin-top: .5rem;
     margin-bottom: .5rem; }
-  .project .body img {
+  .work .body img {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
-  .project .body img:first-child {
+  .work .body img:first-child {
     margin-top: 0; }
-  .project .body img:last-child {
+  .work .body img:last-child {
     margin-bottom: 0; }
-  .project .body h5 {
+  .work .body h5 {
     margin: .5rem 0 0 0;
     font-weight: bold; }
-    .project .body h5 a {
+    .work .body h5 a {
       color: #335769;
       text-decoration: none; }
-    .project .body h5 span {
+    .work .body h5 span {
       font-weight: normal; }
-  .project .body ol {
+  .work .body ol {
     list-style-type: decimal; }
-  .project .body ul {
+  .work .body ul {
     list-style-type: disc; }
-  .project .body li {
+  .work .body li {
     margin-left: 1rem;
     font-weight: 100; }
     @media screen and (min-width: 6.25em) {
-      .project .body li {
+      .work .body li {
         line-height: 1.5em;
         font-size: 1rem; } }
     @media screen and (min-width: 48.0625em) {
-      .project .body li {
+      .work .body li {
         line-height: 1.6em;
         font-size: 1.125rem; } }
 
 @media screen and (min-width: 6.25em) and (min-width: 48.0625em) {
-  .project .body {
+  .work .body {
     float: left;
     display: block;
     margin-right: 4.1362032824%;
     width: 100%; }
-    .project .body:last-child {
+    .work .body:last-child {
       margin-right: 0; } }
   @media screen and (min-width: 48.0625em) {
-    .project .body {
+    .work .body {
       float: left;
       display: block;
       margin-right: 2.026197811%;
       width: 100%; }
-      .project .body:last-child {
+      .work .body:last-child {
         margin-right: 0; } }
 
 footer {
