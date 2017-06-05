@@ -12,7 +12,7 @@ content_section:
       Seeing opportunity where others do not served as the foundation for the group’s brand and culture. The building blocks visual system PS212 developed is a reflection of the Seeing Opportunity promise—tiles that can be arranged in unexpected ways.
 
       The positioning, supporting copy, and look was extended by PS212 to an internal launch campaign and updated marketing materials.​
-    image: 'https://source.unsplash.com/random/900x600'
+    image: 'https://source.unsplash.com/random/2000x1300'
 ---
 
 DO NOT ADD POST CONTENT HERE!

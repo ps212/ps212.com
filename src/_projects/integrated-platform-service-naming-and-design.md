@@ -12,7 +12,7 @@ content_section:
       Partners reached out to PS212 to clearly define the solution, develop a name, visualize the complicated story, and create a visual identifier. The team recommended KRIS (KPMG Resource Integration System) to be paired with the existing, KERA (KPMG Exchange Reference Architecture).
 
       Members of the KPMG team expanded the scope by asking PS212 to develop visual identities for the both offerings.​
-    image: 'https://source.unsplash.com/random/900x600'
+    image: 'https://source.unsplash.com/random/2000x1300'
 ---
 DO NOT ADD POST CONTENT HERE!
 

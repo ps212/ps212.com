@@ -10,7 +10,7 @@ content_section:
       GE’s Corporate Communications and Brand team asked PS212 capture the essence of the organization and simplify GE’s complex messaging platform.
 
       As part of the program, our team coined GE’s culture, established the four new brand attributes, and illustrated how those components should be used across the organization and publicly.​
-    image: 'https://source.unsplash.com/random/900x600'
+    image: 'https://source.unsplash.com/random/2000x1300'
 ---
 
 DO NOT ADD POST CONTENT HERE!

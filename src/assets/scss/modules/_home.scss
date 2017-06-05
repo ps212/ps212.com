@@ -1,52 +1,57 @@
-main {
-  text-align: left;
-  section.hero {
-    @include hero;
-  }
+.home {
 
-  section.body {
-    @include media($s-up){
-      @include span-columns(2);
-      // margin-top: 1rem;
+  main {
+    text-align: left;
+    section.hero {
+      @include hero;
     }
-    @include media($l-up) {
-      @include span-columns(4);
-      // margin-top: 1.5rem;
-    }
-    h1 {
+
+    section.body {
       @include media($s-up){
-        padding: 1rem 0;
-        margin-bottom: .5rem;
+        @include span-columns(2);
+        // margin-top: 1rem;
       }
       @include media($l-up) {
-        // font-size: 2rem;
-        margin-top: 1.75rem;
-        margin-bottom: 2.75rem;
+        @include span-columns(4);
+        // margin-top: 1.5rem;
       }
-    }
+      h1 {
+        @include media($s-up){
+          padding: 1rem 0;
+          margin-bottom: .5rem;
+        }
+        @include media($l-up) {
+          // font-size: 2rem;
+          margin-top: 1.5rem;
+          margin-bottom: 2.75rem;
+        }
+      }
 
-    .square-index {
-      @include square-index();
-      @include media($s-up) {
-        @include span-columns(1 of 2);
-        &:nth-of-type(2n) {
-          margin-right: 0;
+      .square-index {
+        @include square-index();
+        @include media($s-up) {
+          @include span-columns(1 of 2);
+          &:nth-of-type(2n) {
+            margin-right: 0;
+          }
+        }
+        @include media($l-up) {
+          @include span-columns(1 of 4);
+          &:nth-of-type(2n) {
+            margin-right: 2.026197811%;
+          }
+          &:nth-of-type(4n) {
+            margin-right: 0;
+          }
         }
       }
-      @include media($l-up) {
-        @include span-columns(1 of 4);
-        &:nth-of-type(2n) {
-          margin-right: 2.026197811%;
-        }
-        &:nth-of-type(4n) {
-          margin-right: 0;
-        }
+      h1 {
+        color: $text;
       }
-    }
-    h1 {
-      color: $text;
+
     }
 
   }
 
 }
+

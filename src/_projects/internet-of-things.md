@@ -12,7 +12,7 @@ content_section:
       BNY Mellon’s executive team asked PS212 to assess the need for supporting language including unregistered brand names to help the organization tell a simple, consistent story internally and externally.
 
       Our team recognized an opportunity to leverage a familiar set of terms and to coin a term that drives insights. The final name, Digital Pulse, serves as an ingredient brand to the NEXEN platform.​
-    image: 'https://source.unsplash.com/random/900x600'
+    image: 'https://source.unsplash.com/random/2000x1300'
 ---
 DO NOT ADD POST CONTENT HERE!
 
