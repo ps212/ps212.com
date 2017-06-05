@@ -22,6 +22,8 @@ collections:
   people:
     output: true
     permalink: /about/:slug/
+  clients:
+    output: false
 defaults:
   -
     scope:
@@ -46,6 +48,13 @@ defaults:
       _hide_content: true
   -
     scope:
+      path: "index.html"
+    values:
+      class: home
+      layout: default
+      # permalink: "/"
+  -
+    scope:
       path: "about.html"
     values:
       class: about
@@ -58,6 +67,13 @@ defaults:
       class: work
       layout: default
       permalink: "/work/"
+  -
+    scope:
+      path: "clients.html"
+    values:
+      class: clients
+      layout: default
+      permalink: "/clients/"
 
 
 # Extending Jekyll
