@@ -1,6 +1,6 @@
 ---
-title: Naming Principles, Guidelines, and Video Series
-client: GE Corporate Brand
+info: Naming Principles, Guidelines, and Video Series
+title: GE Corporate Brand
 project_type: Design
 draft: false
 order: 3

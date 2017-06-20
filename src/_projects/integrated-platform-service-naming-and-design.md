@@ -1,6 +1,6 @@
 ---
-title: Integrated Platform Service Naming and Design
-client: KPMG
+info: Integrated Platform Service Naming and Design
+title: KPMG
 project_type: Design
 link: false
 order: 6

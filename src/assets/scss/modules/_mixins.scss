@@ -135,42 +135,68 @@
       color: $text;
       position: relative;
       z-index: 1;
-    }
-    h2.info {
-      font-weight: normal;
-      font-style: italic;
+      line-height: 1.5;
     }
     p {
       @include transition(all .4s ease);
       color: $text;
+      float: none !important;
+    }
+    p.type {
+      float: none;
+      font-size: .9rem;
+      // letter-spacing: 1px;
+      font-weight: 300;
+      margin-bottom: .5em;
+      text-transform: uppercase;
+    }
+    h2.title {
+      float: none;
+      font-weight: 700;
+    }
+    h2.info {
+      float: none;
+      font-weight: 400;
+      font-style: italic;
     }
     &:hover {
       h2, p {
         @include transition(all .4s ease);
         color: white;
       }
-      p.more {
-        // border-bottom: 1px solid white !important;
-      }
     }
   }
   h2 {
-      @include transition(all .4s ease);
-      opacity: 1;
-      margin: 0;
-      text-decoration: none;
-      color: $text;
-      position: relative;
-      z-index: 1;
-    }
-    h2.info {
-      font-weight: normal;
-      font-style: italic;
-    }
-    p {
-      @include transition(all .4s ease);
-      color: $text;
-    }
+    @include transition(all .4s ease);
+    opacity: 1;
+    margin: 0;
+    text-decoration: none;
+    color: $text;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5;
+  }
+  p {
+    @include transition(all .4s ease);
+    color: $text;
+  }
+  p.type {
+    float: none;
+    font-size: .9rem !important;
+    // letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+  }
+  h2.title {
+    float: none;
+    font-weight: 700;
+  }
+  h2.info {
+    float: none;
+    font-weight: 400;
+    font-style: italic;
+  }
     &:hover {
       h2, p {
         @include transition(all .4s ease);
@@ -232,7 +258,7 @@
         left: 1.5rem;
         bottom: 1.5rem;
       }
-
+      font-weight: 300;
       font-style: italic;
       line-height: 1.2;
     }
@@ -268,7 +294,7 @@
       padding: 1rem;
       h2 {
         font-size: 1rem;
-        margin-top: .35em;
+        margin-top: 0;
       }
       p {
         font-size: 1rem;
@@ -286,8 +312,8 @@
     @include breakpoint(667px, 768px) {
       padding: 1.5rem;
       h2 {
-        font-size: 1.1rem;
-        margin-top: .35em;
+        font-size: 1.15rem;
+        margin-top: 0;
       }
       p {
         font-size: 1rem;
@@ -306,7 +332,7 @@
       padding: 1rem;
       h2 {
         font-size: 1.5vw;
-        margin-top: .35em;
+        margin-top: 0;
       }
       p {
         font-size: 1.3vw;
@@ -325,7 +351,7 @@
       padding: 1.5rem;
       h2 {
         font-size: 1.5vw;
-        margin-top: .35em;
+        margin-top: 0;
       }
       p {
         font-size: 1.3vw;
@@ -343,8 +369,8 @@
     @include breakpoint(1200px) {
       padding: 1.5rem;
       h2 {
-        font-size: 1.1rem;
-        margin-top: .5em;
+        font-size: 1.15rem;
+        margin-top: 0;
       }
       p {
         font-size: 1rem;
@@ -359,67 +385,7 @@
         }
       }
     }
-    // @include breakpoint(568px, 768px) {
-    //   padding: 1.5rem;
-    // }
-    // @include breakpoint(769px, 1199px) {
-    //   padding: 1rem;
-    // }
-    // @include breakpoint(1200px) {
-    //   padding: 1.5rem;
-    // }
-    // h2 {
-      // @include breakpoint(300px, 499px) {
-      //   font-size: .75rem;
-      //   margin-top: .5em;
-      // }
-      // @include breakpoint(500px, 767px) {
-      //   font-size: 1.1rem;
-      //   margin-top: .75rem;
-      // }
 
-      // @include breakpoint(960px, 1199px) {
-      //   font-size: 1rem;
-      //   margin-top: .75rem;
-      // }
-    // }
-    // p {
-    //   @include breakpoint(300px, 499px) {
-    //     font-size: .75rem;
-    //   }
-    //   @include breakpoint(500px, 767px) {
-    //     font-size: 1rem;
-    //   }
-    //   @include breakpoint(769px, 999px) {
-    //     font-size: 1rem;
-    //   }
-    //   @include breakpoint(1000px) {
-    //     font-size: 1rem;
-    //   }
-    //   margin-top: 0;
-    //   margin-bottom: 0;
-    // }
-    // .more {
-    //   margin-bottom: 0;
-    //   position: absolute;
-    //   @include media($s) {
-    //     left: .5rem;
-    //     bottom: .5rem;
-    //   }
-    //   @include breakpoint(568px, 768px) {
-    //     left: 1.5rem;
-    //     bottom: 1.5rem;
-    //   }
-    //   @include breakpoint(769px, 899px) {
-    //     left: 1rem;
-    //     bottom: 1rem;
-    //   }
-    //   @include breakpoint(900px) {
-    //     left: 1.5rem;
-    //     bottom: 1.5rem;
-    //   }
-    //   border-bottom: 1px solid transparent;
-    // }
   }
 }
 

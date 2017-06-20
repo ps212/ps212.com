@@ -1,6 +1,6 @@
 ---
-title: Windows 10
-client: Microsoft
+info: Windows 10
+title: Microsoft
 project_type: Design
 draft: false
 order: 9

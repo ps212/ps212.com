@@ -1,6 +1,6 @@
 ---
-title: Corporate Partner Design Systems
-client: Olympic Games 2010–2016
+info: Corporate Partner Design Systems
+title: Olympic Games 2010–2016
 project_type: Design
 link: true
 order: 10

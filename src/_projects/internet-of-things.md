@@ -1,6 +1,6 @@
 ---
-title: Internet of Things (IoT)
-client: BNY Mellon
+info: Internet of Things (IoT)
+title: BNY Mellon
 project_type: Design
 link: true
 order: 8

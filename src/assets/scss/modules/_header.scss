@@ -1,4 +1,7 @@
 header {
+  li {
+    font-weight: 300;
+  }
   padding-top: 1.5rem; // overrides styles from _layouts.scss
   @include media($l-up){
     padding-bottom: 4.5rem;

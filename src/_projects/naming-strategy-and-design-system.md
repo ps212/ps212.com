@@ -1,6 +1,6 @@
 ---
-title: Naming, Strategy, and Design System
-client: CMMB
+info: Naming, Strategy, and Design System
+title: CMMB
 project_type: Design
 draft: false
 order: 4

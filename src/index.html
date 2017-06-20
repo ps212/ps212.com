@@ -11,13 +11,12 @@
   <h1>Latest</h1>
 
   {% for project in site.projects limit:4 %}
-
     <div class="square-index" style="background-image:url({{ project.thumbnail_image }});background-size:cover">
       {% if project.link %}<a href="{{ project.url }}">{% endif %}
         <div class="block-inner">
-          <p>{{ project.project_type }}</p>
-          <h2>{{ project.client }}</h2>
-          <h2 class="info">{{ project.title }}</h2>
+          <p class="type">{{ project.project_type }}</p>
+          <h2 class="title">{{ project.title }}</h2>
+          <h2 class="info">{{ project.info }}</h2>
           {% if project.link %}<p class="more">Read more</p>{% endif %}
         </div>
       {% if project.link %}</a>{% endif %}

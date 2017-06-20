@@ -1,6 +1,6 @@
 ---
-title: Positioning, Design, and Implementation
-client: GE Idea Works
+info: Positioning, Design, and Implementation
+title: GE Idea Works
 project_type: Design
 draft: false
 order: 2

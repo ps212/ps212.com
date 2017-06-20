@@ -1,6 +1,6 @@
 ---
-title: Organization-wide Technology Platform
-client: BNY Mellon
+info: Organization-wide Technology Platform
+title: BNY Mellon
 project_type: Design
 draft: false
 order: 7

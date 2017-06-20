@@ -1,6 +1,6 @@
 ---
-title: An Accenture and GE Aviation Joint Venture
-client: Taleris
+info: An Accenture and GE Aviation Joint Venture
+title: Taleris
 project_type: Design
 link: true
 order: 1

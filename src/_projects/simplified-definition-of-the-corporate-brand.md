@@ -1,6 +1,6 @@
 ---
-title: Simplified Definition of the Corporate Brand
-client: GE Corporate Brand
+info: Simplified Definition of the Corporate Brand
+title: GE Corporate Brand
 project_type: Design
 draft: false
 order: 5

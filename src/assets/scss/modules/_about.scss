@@ -1,5 +1,11 @@
 .about {
 
+  main {
+    @include media($l-up) {
+      margin-top: 3.5rem;
+    }
+  }
+
   @include media($s-up) {
     .desktop {display: none;}
   }
@@ -44,7 +50,7 @@
     a {
       @include transition(all .2s ease);
       text-decoration: none;
-      width: 100%; 
+      width: 100%;
       height: 100%;
       h2, h5 {
         @include transition(all .2s ease);
@@ -56,7 +62,7 @@
       &:hover {
         @include transition(all .2s ease);
         opacity: 1;
-      }  
+      }
       h2.title {
         font-style: italic;
       }
@@ -113,7 +119,7 @@
       .share {
         display: inline-block;
         background-color: transparent;
-        // width: 24%; 
+        // width: 24%;
       }
       .share:first-child .share-inner {
         margin-left: 0;
@@ -132,7 +138,7 @@
           float: left;
         }
 
-    
+
         a {
           display: block;
           width: 100%;
