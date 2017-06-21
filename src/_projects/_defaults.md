@@ -5,8 +5,8 @@ project_type:
 draft: true
 project_thumbnail_image:
 content_section:
-  - section_image:
-    section_text_markdown: >-
+  - section_text_markdown: >-
+    section_image:
 ---
 DO NOT ADD POST CONTENT HERE!
 
