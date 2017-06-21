@@ -4,7 +4,7 @@ project_info: Internet of Things (IoT)
 project_type: Design
 link: true
 order: 8
-project_thumbnail_image: 'https://images.unsplash.com/photo-1423775162340-fc7066ace5be?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=500&h=500&fit=crop&s=723bab64906cf8f53b8cbd98a2403b35'
+project_thumbnail_image: /uploads/thumbnail.jpg
 content_section:
   - section_image: /uploads/placeholder.jpg
     section_text_markdown: >-
