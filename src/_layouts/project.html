@@ -9,11 +9,11 @@ layout: default
 <section class="body">
 
   {% for block in page.content_section %}
-    {% if block.text_block_markdown %}
-      {{ block.text_block_markdown | markdownify }}
+    {% if block.section_text_markdown %}
+      {{ block.section_text_markdown | markdownify }}
     {% endif %}
-    {% if block.image %}
-      <img src="{{block.image}}" alt="">
+    {% if block.section_image %}
+      <img src="{{block.section_image}}" alt="">
     {% endif %}
   {% endfor %}
 

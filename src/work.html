@@ -8,7 +8,7 @@ class: work
 
 {% for project in projects %}
 
-  <div class="square-index" style="background-image:url({{ project.thumbnail_image }});background-size:cover">
+  <div class="square-index" style="background-image:url({{ project.project_thumbnail_image }});background-size:cover">
     {% if project.link %}<a href="{{ project.url }}">{% endif %}
       <div class="block-inner">
         <p class="type">{{ project.project_type }}</p>

@@ -9,6 +9,11 @@ source: src
 destination: dist
 exclude:
 
+_comments:
+  project_thumbnail_image: Image should be at least 450px square
+  section_image: Image should be at least 1800px wide
+  photo_path: Image should be at least 450px square
+
 project_types:
   - Design
   - Naming
