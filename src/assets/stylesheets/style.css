@@ -776,10 +776,8 @@ header {
         float: none !important; }
       .home main section.body .square-index a p.type {
         float: none;
-        font-size: .9rem;
         font-weight: 300;
-        margin-bottom: .5em;
-        text-transform: uppercase; }
+        margin-bottom: .5em; }
       .home main section.body .square-index a h2.title {
         float: none;
         font-weight: 700; }
@@ -804,10 +802,8 @@ header {
       color: #335769; }
     .home main section.body .square-index p.type {
       float: none;
-      font-size: .9rem !important;
       font-weight: 300;
-      margin-bottom: .5em;
-      text-transform: uppercase; }
+      margin-bottom: .5em; }
     .home main section.body .square-index h2.title {
       float: none;
       font-weight: 700; }
@@ -1091,10 +1087,8 @@ header {
       float: none !important; }
     .about .square-index a p.type {
       float: none;
-      font-size: .9rem;
       font-weight: 300;
-      margin-bottom: .5em;
-      text-transform: uppercase; }
+      margin-bottom: .5em; }
     .about .square-index a h2.title {
       float: none;
       font-weight: 700; }
@@ -1119,10 +1113,8 @@ header {
     color: #335769; }
   .about .square-index p.type {
     float: none;
-    font-size: .9rem !important;
     font-weight: 300;
-    margin-bottom: .5em;
-    text-transform: uppercase; }
+    margin-bottom: .5em; }
   .about .square-index h2.title {
     float: none;
     font-weight: 700; }
@@ -1638,10 +1630,8 @@ header {
       float: none !important; }
     .category .square-index a p.type {
       float: none;
-      font-size: .9rem;
       font-weight: 300;
-      margin-bottom: .5em;
-      text-transform: uppercase; }
+      margin-bottom: .5em; }
     .category .square-index a h2.title {
       float: none;
       font-weight: 700; }
@@ -1666,10 +1656,8 @@ header {
     color: #335769; }
   .category .square-index p.type {
     float: none;
-    font-size: .9rem !important;
     font-weight: 300;
-    margin-bottom: .5em;
-    text-transform: uppercase; }
+    margin-bottom: .5em; }
   .category .square-index h2.title {
     float: none;
     font-weight: 700; }
@@ -2372,10 +2360,8 @@ p {
       float: none !important; }
     .square-index a p.type {
       float: none;
-      font-size: .9rem;
       font-weight: 300;
-      margin-bottom: .5em;
-      text-transform: uppercase; }
+      margin-bottom: .5em; }
     .square-index a h2.title {
       float: none;
       font-weight: 700; }
@@ -2400,10 +2386,8 @@ p {
     color: #335769; }
   .square-index p.type {
     float: none;
-    font-size: .9rem !important;
     font-weight: 300;
-    margin-bottom: .5em;
-    text-transform: uppercase; }
+    margin-bottom: .5em; }
   .square-index h2.title {
     float: none;
     font-weight: 700; }
