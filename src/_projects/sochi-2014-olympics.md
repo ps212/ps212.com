@@ -4,7 +4,7 @@ project_info: Worldwide Partner Supporting Visual System
 project_type: Design
 draft: false
 link: false
-sort_order:
+sort_number:
 project_thumbnail_image: /uploads/sochiolympic-thumb.jpg
 content_section:
   - section_text_markdown:

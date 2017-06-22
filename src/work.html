@@ -3,8 +3,12 @@ layout: default
 class: work
 ---
 
-{% assign liveprojects = site.projects | where:"draft","false" %}
-{% assign projects = liveprojects | sort:"sort_order" %}
+{% assign sorted = site.projects | where_exp:"item",
+"item.sort_number > 0" %}
+{% assign sorted = sorted | where:'draft','false' | sort:'sort_number' %}
+{% assign unsorted = site.projects | where_exp:"item",
+"item.keys contains 'sort_number'" %}
+{% assign projects = sorted | concat: unsorted %}
 
 {% for project in projects %}
 
@@ -20,4 +24,3 @@ class: work
   </div>
 
 {% endfor %}
-

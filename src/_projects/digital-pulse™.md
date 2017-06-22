@@ -4,7 +4,7 @@ project_info: Data and Analytics Platform
 project_type: Naming
 draft: false
 link: false
-sort_order:
+sort_number:
 project_thumbnail_image: /uploads/istock-504112194-thumb.jpg
 content_section:
   - section_text_markdown:

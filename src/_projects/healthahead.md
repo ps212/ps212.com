@@ -4,7 +4,7 @@ project_info: Corporate Health and Wellness Program
 project_type: Naming
 draft: false
 link: false
-sort_order:
+sort_number:
 project_thumbnail_image: /uploads/istock-513984638-thumb.jpg
 content_section:
   - section_text_markdown:

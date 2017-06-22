@@ -4,7 +4,7 @@ project_info:
 project_type:
 draft: true
 link: false
-sort_order:
+sort_number:
 project_thumbnail_image:
 content_section:
   - section_text_markdown: >-

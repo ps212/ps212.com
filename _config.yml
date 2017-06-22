@@ -13,6 +13,7 @@ _comments:
   project_thumbnail_image: Image should be at least 450px square
   section_image: Image should be at least 1800px wide
   photo_path: Image should be at least 450px square
+  sort_number: Lowest to highest (projects with no sort number come last)
 
 project_types:
   - Design
@@ -86,14 +87,3 @@ defaults:
       class: contact
       layout: default
       permalink: "/contact/"
-
-
-# Extending Jekyll
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  # - jekyll-redirect-from
-  # - jekyll-polyglot
-  # - jekyll-paginate
-  # - jekyll-archives
-  # - jekyll-feed

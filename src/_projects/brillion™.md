@@ -4,7 +4,7 @@ project_info: Intelligent Home Management System
 project_type: Naming
 draft: false
 link: true
-sort_order:
+sort_number:
 project_thumbnail_image: /uploads/istock-618455346-thumb.jpg
 content_section:
   - section_text_markdown:
