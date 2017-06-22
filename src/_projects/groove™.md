@@ -3,6 +3,8 @@ project_title: Groove™
 project_info: Music Player
 project_type: Naming
 draft: false
+link: false
+sort_order:
 project_thumbnail_image: /uploads/istock-513475480-thumb.jpg
 content_section:
   - section_text_markdown:

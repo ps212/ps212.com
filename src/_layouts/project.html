@@ -7,16 +7,18 @@ layout: default
 </section>
 
 <section class="body">
-
-  {% for block in page.content_section %}
-    {% if block.section_text_markdown %}
-      {{ block.section_text_markdown | markdownify }}
-    {% endif %}
-    {% if block.section_image %}
-      <img src="{{block.section_image}}" alt="">
-    {% endif %}
-  {% endfor %}
-
+  <div class="sections">
+    {% for block in page.content_section %}
+      {% if block.section_text_markdown %}
+        <div class="copy">
+          {{ block.section_text_markdown | markdownify }}
+        </div>
+      {% endif %}
+      {% if block.section_image %}
+        <img src="{{block.section_image}}" alt="">
+      {% endif %}
+    {% endfor %}
+  </div>
   {% include projects.html %}
 
 </section>

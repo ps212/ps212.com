@@ -3,6 +3,8 @@ project_title: Taleris™
 project_info: 'Data Analytics Company Name, Logo, and Visual System'
 project_type: Naming and Design
 draft: false
+link: false
+sort_order:
 project_thumbnail_image: /uploads/taleris-thumb.jpg
 content_section:
   - section_text_markdown:

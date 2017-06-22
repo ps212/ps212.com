@@ -3,6 +3,8 @@ project_title: GridIQ™
 project_info: Smart Grid Solutions
 project_type: Naming
 draft: false
+link: false
+sort_order:
 project_thumbnail_image: /uploads/istock-629267310-thumb.jpg
 content_section:
   - section_text_markdown:

@@ -20,8 +20,14 @@
     color: $text;
   }
 
-  .body > p:first-child {
+  .sections > .copy:first-child {
     margin-top: 0;
+    p {
+      margin-top: 0;
+    }
+  }
+  .sections > .copy:last-child {
+    margin-bottom: 2rem;
   }
 
   .body {
@@ -36,6 +42,14 @@
       margin-top: .5rem;
       margin-bottom: .5rem;
     }
+    .copy {
+      float: left;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      p:first-of-type {
+        margin-top: 0;
+      }
+    }
     img {
       margin-top: 1.5rem;
       margin-bottom: 1.5rem;
@@ -44,7 +58,7 @@
       margin-top: 0;
     }
     img:last-child {
-      margin-bottom: 0;
+      // margin-bottom: 0;
     }
     h5 {
       margin: .5rem 0 0 0;

@@ -3,6 +3,8 @@ project_title: ClearCurrent™
 project_info: Gas Turbine Filtration
 project_type: Naming
 draft: false
+link: false
+sort_order:
 project_thumbnail_image: /uploads/istock-181803397-thumb.jpg
 content_section:
   - section_text_markdown:

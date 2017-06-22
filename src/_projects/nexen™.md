@@ -3,6 +3,8 @@ project_title: Nexen™
 project_info: Technology Platform
 project_type: Naming
 draft: false
+link: false
+sort_order:
 project_thumbnail_image: /uploads/istock-616248212-yellow-thumb.jpg
 content_section:
   - section_text_markdown:

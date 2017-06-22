@@ -1448,6 +1448,7 @@ header {
   color: #335769; }
 
 .projects {
+  clear: left;
   margin-top: 1.5rem;
   padding-top: 3rem;
   border-top: 1px solid #ed1417; }
@@ -1507,8 +1508,13 @@ header {
   margin: 0 0 1.5rem 0;
   color: #335769; }
 
-.project .body > p:first-child {
+.project .sections > .copy:first-child {
   margin-top: 0; }
+  .project .sections > .copy:first-child p {
+    margin-top: 0; }
+
+.project .sections > .copy:last-child {
+  margin-bottom: 2rem; }
 
 .project .body {
   color: #335769; }
@@ -1523,13 +1529,17 @@ header {
   .project .body p {
     margin-top: .5rem;
     margin-bottom: .5rem; }
+  .project .body .copy {
+    float: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+    .project .body .copy p:first-of-type {
+      margin-top: 0; }
   .project .body img {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
   .project .body img:first-child {
     margin-top: 0; }
-  .project .body img:last-child {
-    margin-bottom: 0; }
   .project .body h5 {
     margin: .5rem 0 0 0;
     font-weight: bold; }

@@ -3,6 +3,8 @@ project_title: OpSheild™
 project_info: Industrial Grade Firewall
 project_type: Naming
 draft: false
+link: false
+sort_order:
 project_thumbnail_image: /uploads/istock-178167175-thumb.jpg
 content_section:
   - section_text_markdown:
