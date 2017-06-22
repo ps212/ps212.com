@@ -1,13 +1,15 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
-project_thumbnail_image:
+project_title: GE Telligent™ Bulb
+project_info: Package Design
+project_type: Design
+draft: false
+project_thumbnail_image: /uploads/telligentpackaging-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
 ---
+
+
 DO NOT ADD POST CONTENT HERE!
 
 Add all content in Content Sections.
