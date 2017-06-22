@@ -1,5 +1,5 @@
 ---
-project_title: GE Telligent™ Bulb
+project_title: GE Telligent™ Light Bulb
 project_info: Package Design
 project_type: Design
 draft: false
