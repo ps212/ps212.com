@@ -13,7 +13,9 @@ _comments:
   project_thumbnail_image: Image should be at least 450px square
   section_image: Image should be at least 1800px wide
   photo_path: Image should be at least 450px square
-  sort_number: Lowest to highest (projects with no sort number come last)
+  sort_number: Low to high (projects with no sort number come last)
+  draft: Drafts are not published
+  link: Users can click through to the case study
 
 project_types:
   - Design
