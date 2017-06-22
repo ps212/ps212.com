@@ -1,13 +1,15 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
-project_thumbnail_image:
+project_title: Telligent™
+project_info: LED Bulb
+project_type: Naming
+draft: false
+project_thumbnail_image: /uploads/istock-509095490-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
 ---
+
+
 DO NOT ADD POST CONTENT HERE!
 
 Add all content in Content Sections.
