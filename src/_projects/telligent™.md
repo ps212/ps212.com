@@ -1,6 +1,6 @@
 ---
 project_title: Telligent™
-project_info: LED Bulb
+project_info: LED Light Bulb
 project_type: Naming
 draft: false
 project_thumbnail_image: /uploads/istock-509095490-thumb.jpg
