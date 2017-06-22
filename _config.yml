@@ -27,6 +27,7 @@ collections:
   projects:
     output: true
     permalink: /work/:slug/
+    _hide_content: true
   people:
     output: true
     permalink: /about/:slug/
