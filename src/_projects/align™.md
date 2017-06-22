@@ -4,7 +4,7 @@ project_info: Circadian Rhythm Light Bulb
 project_type: Naming
 draft: false
 link: true
-sort_order:
+sort_order: 2
 project_thumbnail_image: /uploads/istock-92120123-thumb.jpg
 content_section:
   - section_text_markdown:
