@@ -4,7 +4,7 @@ class: work
 ---
 
 {% assign liveprojects = site.projects | where:"draft","false" %}
-{% assign projects = liveprojects | sort:"order" | reverse %}
+{% assign projects = liveprojects | sort:"sort_order" %}
 
 {% for project in projects %}
 
