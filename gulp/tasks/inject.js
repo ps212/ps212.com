@@ -1,6 +1,7 @@
 'use strict';
 const gulp = require('gulp');
 const inject = require('gulp-inject');
+inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
 // 'gulp inject:head' -- injects our style.css file into the head of our HTML
 gulp.task('inject:head', () =>
