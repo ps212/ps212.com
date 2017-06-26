@@ -16,11 +16,11 @@ layout: default
       {% endif %}
       {% if block.section_image %}
       <img ix-path="{{ block.section_image | replace: '/uploads/', ''}}"
-         alt=""
-         ix-params='{
-           "auto": "compress"
-         }'
-         sizes="(min-width: 1200px) 1200px, 95vw">
+           alt=""
+           ix-params='{
+             "auto": "compress"
+           }'
+           sizes="(min-width: 1200px) 1200px, 95vw">
       {% endif %}
     {% endfor %}
   </div>
