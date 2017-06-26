@@ -5,7 +5,14 @@
 {% assign people = site.people | sort:"order" %}
 
 {% for person in people %}
-  <div class="square-index" style="background-image:url({{ person.photo_path }});background-size:cover">
+  <div class="square-index" style="background-size:cover">
+    <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+         alt=""
+         ix-params='{
+           "auto": "compress"
+         }'
+         class="js-img"
+         sizes="(min-width: 769px) 25vw, 50vw">
     <div class="block-inner">
       <a href="{{ person.url }}">
       <h2>{{ person.name }}</h2>

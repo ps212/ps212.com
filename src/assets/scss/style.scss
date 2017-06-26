@@ -36,6 +36,10 @@ $visual-grid-opacity: 0.2;
   "modules/utilities"
 ;
 
+.js-img {
+  display: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   @include media($s-up) {

@@ -2268,6 +2268,9 @@ sub {
 .hidden-js, .hidden {
   display: none; }
 
+.js-img {
+  display: none; }
+
 body {
   font-family: 'Roboto', sans-serif; }
 

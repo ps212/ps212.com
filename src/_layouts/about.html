@@ -10,7 +10,14 @@ class: about
   <div class="set mobile">
     {% for person in people %}
       {% if forloop.index0 < 2 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2>{{ person.name }}</h2>
@@ -45,7 +52,14 @@ class: about
   <div class="set mobile">
     {% for person in people %}
       {% if forloop.index0 == 2 or forloop.index0 == 3 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2>{{ person.name }}</h2>
@@ -80,7 +94,14 @@ class: about
   <div class="set mobile">
     {% for person in people %}
       {% if forloop.index0 == 4 or forloop.index0 == 5 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2>{{ person.name }}</h2>
@@ -115,7 +136,14 @@ class: about
   <div class="set mobile">
     {% for person in people %}
       {% if forloop.index0 == 6 or forloop.index0 == 7 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2>{{ person.name }}</h2>
@@ -150,7 +178,14 @@ class: about
   <div class="set mobile">
     {% for person in people %}
       {% if forloop.index0 == 8 or forloop.index0 == 9 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2>{{ person.name }}</h2>
@@ -185,7 +220,14 @@ class: about
   <div class="set mobile">
     {% for person in people %}
       {% if forloop.index0 == 10 or forloop.index0 == 11 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2>{{ person.name }}</h2>
@@ -220,7 +262,14 @@ class: about
   <div class="set mobile">
     {% for person in people %}
       {% if forloop.index0 == 12 or forloop.index0 == 13 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2>{{ person.name }}</h2>
@@ -255,7 +304,14 @@ class: about
   <div class="set desktop">
     {% for person in people %}
       {% if forloop.index0 < 4 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
             <h2>{{ person.name }}</h2>
@@ -291,7 +347,14 @@ class: about
   <div class="set desktop">
     {% for person in people %}
       {% if forloop.index0 > 3 and forloop.index0 < 8 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
             <h2>{{ person.name }}</h2>
@@ -327,7 +390,14 @@ class: about
   <div class="set desktop">
     {% for person in people %}
       {% if forloop.index0 > 7 and forloop.index0 < 12 %}
-        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-image:url({{ person.photo_path }});background-size:cover">
+        <div class="square-index {% if page.name == person.name %}active{% else %}inactive{% endif %}" style="background-size:cover">
+          <img ix-path="{{ person.photo_path | replace: '/uploads/', ''}}"
+               alt=""
+               ix-params='{
+                 "auto": "compress"
+               }'
+               class="js-img"
+               sizes="(min-width: 769px) 25vw, 50vw">
           <div class="block-inner">
             <a href="{{ person.url }}">
             <h2>{{ person.name }}</h2>
