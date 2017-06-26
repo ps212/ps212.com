@@ -11,7 +11,7 @@ exclude:
 
 _comments:
   project_thumbnail_image: Image should be at least 450px square
-  section_image: Image should be at least 1800px wide
+  section_image: Image should be at least 2400px wide
   photo_path: Image should be at least 450px square
   sort_number: Low to high (projects with no sort number come last)
   draft: Drafts are not published

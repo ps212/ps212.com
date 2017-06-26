@@ -15,7 +15,12 @@ layout: default
         </div>
       {% endif %}
       {% if block.section_image %}
-        <img src="{{block.section_image}}" alt="">
+      <img ix-path="{{ block.section_image | replace: '/uploads/', ''}}"
+         alt=""
+         ix-params='{
+           "auto": "compress"
+         }'
+         sizes="(min-width: 1200px) 1200px, 95vw">
       {% endif %}
     {% endfor %}
   </div>
