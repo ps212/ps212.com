@@ -4,7 +4,7 @@ project_info: Government Services Integrated Platform
 project_type: Naming and Design
 draft: false
 link: false
-sort_number:
+sort_number: 22
 project_thumbnail_image: /uploads/kpmg-kris-thumb.jpg
 content_section:
   - section_text_markdown:
