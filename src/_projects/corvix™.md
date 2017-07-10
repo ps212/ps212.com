@@ -4,7 +4,7 @@ project_info: Data Visualization Tool
 project_type: Naming
 draft: false
 link: false
-sort_number:
+sort_number: 16
 project_thumbnail_image: /uploads/corvix-thumb.jpg
 content_section:
   - section_text_markdown:
