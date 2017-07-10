@@ -4,7 +4,7 @@ project_info: Commercial Airplane Engine
 project_type: Naming
 draft: false
 link: false
-sort_number:
+sort_number: 35
 project_thumbnail_image: /uploads/istock-134518690-thumb.jpg
 content_section:
   - section_text_markdown:
