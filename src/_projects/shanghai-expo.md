@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: Shanghai Expo
+project_info: Corporate Sponsor Lock-up and Supporting Visual System
+project_type: Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 62
+project_thumbnail_image: /uploads/shanghai-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
