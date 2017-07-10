@@ -4,7 +4,7 @@ project_info: Vehicle Wrap
 project_type: Design
 draft: false
 link: false
-sort_number:
+sort_number: 55
 project_thumbnail_image: /uploads/ecobus-thumb.jpg
 content_section:
   - section_text_markdown:
