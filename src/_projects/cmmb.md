@@ -4,7 +4,7 @@ project_info: Visual Identity and Supporting Visual System
 project_type: Strategy and Design
 draft: false
 link: false
-sort_number:
+sort_number: 7
 project_thumbnail_image: /uploads/cmmb-thumb.jpg
 content_section:
   - section_text_markdown:
