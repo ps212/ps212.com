@@ -4,7 +4,7 @@ project_info: Supporting Visual System
 project_type: Design
 draft: false
 link: false
-sort_number:
+sort_number: 44
 project_thumbnail_image: /uploads/lowes-poster-thumb.jpg
 content_section:
   - section_text_markdown:
