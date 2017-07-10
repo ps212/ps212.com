@@ -4,7 +4,7 @@ project_info: Technology Platform
 project_type: Naming
 draft: false
 link: false
-sort_number:
+sort_number: 33
 project_thumbnail_image: /uploads/istock-616248212-yellow-thumb.jpg
 content_section:
   - section_text_markdown:
