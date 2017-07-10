@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: GE Crotonville
+project_info: Supporting Visual System
+project_type: Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 13
+project_thumbnail_image: /uploads/ge-crotonville-multiplier-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
