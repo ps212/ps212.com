@@ -4,7 +4,7 @@ project_info: Patient Controlled Mammography Environment
 project_type: Naming
 draft: false
 link: false
-sort_number:
+sort_number: 65
 project_thumbnail_image: /uploads/istock-502647961-thumb.jpg
 content_section:
   - section_text_markdown:
