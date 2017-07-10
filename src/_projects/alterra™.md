@@ -3,8 +3,8 @@ project_title: Alterra™
 project_info: Locomotive Engine
 project_type: Naming
 draft: false
-link: true
-sort_number:
+link: false
+sort_number: 52
 project_thumbnail_image: /uploads/alterra-thumb.jpg
 content_section:
   - section_text_markdown:
