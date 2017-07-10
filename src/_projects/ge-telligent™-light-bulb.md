@@ -4,7 +4,7 @@ project_info: Package Design
 project_type: Design
 draft: false
 link: false
-sort_number:
+sort_number: 31
 project_thumbnail_image: /uploads/telligentpackaging-thumb.jpg
 content_section:
   - section_text_markdown:
