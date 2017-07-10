@@ -7,7 +7,7 @@ class: work
 "item.sort_number > 0" %}
 {% assign sorted = sorted | where:'draft','false' | sort:'sort_number' %}
 {% assign unsorted = site.projects | where_exp:"item",
-"item.keys contains 'sort_number'" %}
+"item.keys contains 'sort_number'" | shuffle %}
 {% assign projects = sorted | concat: unsorted | uniq %}
 
 {% for project in projects %}
