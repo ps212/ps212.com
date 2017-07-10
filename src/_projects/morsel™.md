@@ -4,7 +4,7 @@ project_info: Personal Health App
 project_type: Naming
 draft: false
 link: false
-sort_number:
+sort_number: 2
 project_thumbnail_image: /uploads/istock-625195970-thumb.jpg
 content_section:
   - section_text_markdown:
