@@ -4,7 +4,7 @@ project_info: Business Intelligence
 project_type: Naming
 draft: false
 link: false
-sort_number:
+sort_number: 37
 project_thumbnail_image: /uploads/istock-629668612-thumb.jpg
 content_section:
   - section_text_markdown:
