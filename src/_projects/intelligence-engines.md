@@ -4,7 +4,7 @@ project_info: Insight Tools
 project_type: Naming
 draft: false
 link: false
-sort_number:
+sort_number: 50
 project_thumbnail_image: /uploads/istock-542218066-thumb.jpg
 content_section:
   - section_text_markdown:
