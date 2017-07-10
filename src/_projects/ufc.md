@@ -2,7 +2,7 @@
 project_title: UFC
 project_info: Brand Definition and Platform
 project_type: Strategy and Design
-draft: true
+draft: false
 link: false
 sort_number: 5
 project_thumbnail_image: /uploads/ufc-thumb.jpg
