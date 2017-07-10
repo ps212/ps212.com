@@ -4,7 +4,7 @@ project_info: Smart Grid Solutions
 project_type: Naming
 draft: false
 link: false
-sort_number:
+sort_number: 32
 project_thumbnail_image: /uploads/istock-629267310-thumb.jpg
 content_section:
   - section_text_markdown:
