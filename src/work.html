@@ -8,7 +8,7 @@ class: work
 {% assign sorted = sorted | where:'draft','false' | sort:'sort_number' %}
 {% assign unsorted = site.projects | where_exp:"item",
 "item.keys contains 'sort_number'" %}
-{% assign projects = sorted | concat: unsorted %}
+{% assign projects = sorted | concat: unsorted | uniq %}
 
 {% for project in projects %}
 
@@ -23,7 +23,7 @@ class: work
     {% if project.link %}<a href="{{ project.url }}">{% endif %}
       <div class="block-inner">
         <p class="type">{{ project.project_type }}</p>
-        <h2 class="title">{{ project.title }}</h2>
+        <h2 class="title">{{ project.project_title }}</h2>
         <h2 class="info">{{ project.info }}</h2>
         {% if project.link %}<p class="more">Read more</p>{% endif %}
       </div>
