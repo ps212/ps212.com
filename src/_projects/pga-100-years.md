@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: PGA 100 Years
+project_info: Special Use Logo and Supporting Visual System
+project_type: Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 41
+project_thumbnail_image: /uploads/pga-100years-thumb2.jpg
 content_section:
   - section_text_markdown:
     section_image:
