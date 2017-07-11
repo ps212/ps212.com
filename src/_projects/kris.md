@@ -1,6 +1,6 @@
 ---
-project_title: KRIS
-project_info: Government Services Integrated Platform
+project_title: KRIS™
+project_info: Resource Integration System
 project_type: Naming and Design
 draft: false
 link: false
