@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: PGA Championship
+project_info: Event Logo
+project_type: Strategy and Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 51
+project_thumbnail_image: /uploads/pga-championship-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
