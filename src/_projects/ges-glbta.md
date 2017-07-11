@@ -1,10 +1,10 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: "GE's GLBTA"
+project_info: Primary Mark and Poster Series
+project_type: Design
+draft: false
 link: false
-sort_number:
+sort_number: 61
 project_thumbnail_image:
 content_section:
   - section_text_markdown:
