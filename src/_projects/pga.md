@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: PGA
+project_info: Organization-wide Supporting Visual System
+project_type: Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 34
+project_thumbnail_image: /uploads/pga-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
