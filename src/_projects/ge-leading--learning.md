@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: 'GE Leading & Learning'
+project_info: Identity and Supporting Visual System
+project_type: Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 49
+project_thumbnail_image: /uploads/ge-leadinglearning-thumb3.jpg
 content_section:
   - section_text_markdown:
     section_image:
