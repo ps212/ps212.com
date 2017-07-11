@@ -1,7 +1,7 @@
 ---
-project_title: Microsoft Rewards Program Badges
-project_info: Badge System for Microsoft Rewards Program
-project_type: Design
+project_title: Microsoft Rewards
+project_info: System of Names and Badges for Microsoft Rewards Program
+project_type: Naming and Design
 draft: false
 link: false
 sort_number: 8
