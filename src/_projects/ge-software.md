@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: GE Software
+project_info: Supporting Visual System
+project_type: Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 27
+project_thumbnail_image: /uploads/ge-software-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
