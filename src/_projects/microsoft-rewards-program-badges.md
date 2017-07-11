@@ -1,6 +1,6 @@
 ---
 project_title: Microsoft Rewards
-project_info: System of Names and Badges for Microsoft Rewards Program
+project_info: Naming and Badge System for Microsoft Rewards Program
 project_type: Naming and Design
 draft: false
 link: false
