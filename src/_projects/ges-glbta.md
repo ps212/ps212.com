@@ -5,7 +5,7 @@ project_type: Design
 draft: false
 link: false
 sort_number: 61
-project_thumbnail_image:
+project_thumbnail_image: /uploads/ge-glbta-thumb-01.jpg
 content_section:
   - section_text_markdown:
     section_image:
