@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: Get Golf Ready
+project_info: Industry Supported Program Logo
+project_type: Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 64
+project_thumbnail_image: /uploads/getgolfready-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
