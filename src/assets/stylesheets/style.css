@@ -1044,6 +1044,11 @@ header {
       padding-bottom: 2rem !important; } }
   .contact .hero h1 {
     font-weight: 100; }
+    .contact .hero h1 a {
+      color: #335769;
+      text-decoration: none; }
+      .contact .hero h1 a:hover {
+        color: #ed1417; }
 
 @media screen and (min-width: 48.0625em) {
   .about main {
