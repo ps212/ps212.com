@@ -1,5 +1,9 @@
 ---
-projects:
+featured_projects:
+  - brillion™
+  - continuum™
+  - etsy-studio™
+  - ge-telligent™-light-bulb
 ---
 <section class="hero">
   <h1 class="editable">We are a brand consultancy with big agency experience, operating at start-up speed.</h1>
@@ -9,22 +13,29 @@ projects:
 
   <h1>Latest</h1>
 
-  {% for project in projects %}
-    <div class="square-index" style="background-size:cover;">
-      <img ix-path="{{ project.project_thumbnail_image | replace: '/uploads/', ''}}" alt="" ix-params='{
-             "auto": "compress"
-           }' class="js-img" sizes="(min-width: 769px) 25vw, 50vw" />
-      {% if project.link %}<a href="{{ project.url }}">{% endif %}
-        <div class="block-inner">
-          <p class="type">{{ project.project_type }}</p>
-          <h2 class="title">{{ project.title }}</h2>
-          <h2 class="info">{{ project.info }}</h2>
-          {% if project.link %}<p class="more">Read more</p>{% endif %}
+  {% assign liveprojects = site.projects | where: 'draft',false %}
+  {% for featured in page.featured_projects %}
+    {% for item in liveprojects %}
+      {% if featured == item.slug %}
+        <div class="square-index" style="background-size:cover;">
+          <img ix-path="{{ item.project_thumbnail_image | replace: '/uploads/', ''}}" alt="" ix-params='{
+                 "auto": "compress"
+               }' class="js-img" sizes="(min-width: 769px) 25vw, 50vw" />
+          {% if item.link %}<a href="{{ item.url }}">{% endif %}
+            <div class="block-inner">
+              <p class="type">{{ item.project_type }}</p>
+              <h2 class="title">{{ item.project_title }}</h2>
+              <h2 class="info">{{ item.project_info }}</h2>
+              {% if item.link %}<p class="more">Read more</p>{% endif %}
+            </div>
+          {% if item.link %}</a>{% endif %}
         </div>
-      {% if project.link %}</a>{% endif %}
-    </div>
-
+      {% endif %}
+    {% endfor %}
   {% endfor %}
+
+
+
 
 </section>
 
