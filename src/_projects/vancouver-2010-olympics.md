@@ -1,11 +1,11 @@
 ---
-project_title:
-project_info:
-project_type:
-draft: true
+project_title: Vancouver 2010 Olympics
+project_info: Worldwide Partner Supporting Visual System
+project_type: Design
+draft: false
 link: false
-sort_number:
-project_thumbnail_image:
+sort_number: 39
+project_thumbnail_image: /uploads/ge-vancouver-thumb.jpg
 content_section:
   - section_text_markdown:
     section_image:
