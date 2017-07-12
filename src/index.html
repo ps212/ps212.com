@@ -1,4 +1,5 @@
 ---
+projects:
 ---
 <section class="hero">
   <h1 class="editable">We are a brand consultancy with big agency experience, operating at start-up speed.</h1>
@@ -8,7 +9,7 @@
 
   <h1>Latest</h1>
 
-  {% for project in site.projects limit:4 %}
+  {% for project in projects %}
     <div class="square-index" style="background-size:cover;">
       <img ix-path="{{ project.project_thumbnail_image | replace: '/uploads/', ''}}" alt="" ix-params='{
              "auto": "compress"
