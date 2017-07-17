@@ -16,7 +16,8 @@ class: work
     <img ix-path="{{ project.project_thumbnail_image | replace: '/uploads/', ''}}"
          alt=""
          ix-params='{
-           "auto": "compress"
+           "auto": "compress",
+           "q": "25"
          }'
          class="js-img"
          sizes="(min-width: 769px) 25vw, 50vw">
