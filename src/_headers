@@ -1,0 +1,3 @@
+/server-push-path
+  Link: </assets/javascript/index.min.js>; rel=preload; as=script
+  Link: </assets/stylesheets/style.min.css>; rel=preload; as=style

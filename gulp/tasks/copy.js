@@ -18,3 +18,10 @@ gulp.task('copy:redirects', () =>
   gulp.src('_redirects')
     .pipe(gulp.dest('dist'))
 );
+
+if (argv.prod) {
+  gulp.task('copy:headerpush', () =>
+    gulp.src('_headers')
+      .pipe(gulp.dest('dist'))
+  );
+}
