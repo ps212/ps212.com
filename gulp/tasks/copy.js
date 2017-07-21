@@ -19,9 +19,7 @@ gulp.task('copy:redirects', () =>
     .pipe(gulp.dest('dist'))
 );
 
-gulp.task('copy:headerpush', () => {
-  if (argv.prod) {
-    gulp.src('_headers')
-      .pipe(gulp.dest('dist'))
-  }
-});
+gulp.task('copy:headerpush', () =>
+  gulp.src('_headers')
+    .pipe(gulp.dest('dist'))
+);
