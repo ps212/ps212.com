@@ -8,6 +8,7 @@ url: http://www.ps212.com
 source: src
 destination: dist
 exclude:
+include: [_headers]
 
 _comments:
   project_thumbnail_image: Image should be at least 450px square
