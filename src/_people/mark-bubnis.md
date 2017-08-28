@@ -1,7 +1,7 @@
 ---
 name: Mark Bubnis
 position: Client Director
-show_position: false
+display_position: false
 email: mark.bubnis@ps212.com
 linkedin:
 photo_path: /uploads/mark.jpg

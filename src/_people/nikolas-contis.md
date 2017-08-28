@@ -1,7 +1,7 @@
 ---
 name: Nik Contis
 position: Senior Partner, Naming
-show_position: true
+display_position: true
 email: nik.contis@ps212.com
 linkedin:
 photo_path: /uploads/nik.png
