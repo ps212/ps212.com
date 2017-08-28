@@ -1,6 +1,7 @@
 ---
 name: David Gaglione
-title: Founding Partner
+position: Founding Partner
+show_position: true
 email: david@ps212.com
 linkedin: https://www.linkedin.com/in/ps212davidgaglione
 photo_path: /uploads/david.png

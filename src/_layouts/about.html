@@ -21,7 +21,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2 class="title">{{ person.name }}</h2>
-              <h2 class="info">{{ person.title }}</h2>
+              {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -31,7 +31,7 @@ class: about
       {% if forloop.index0 < 2 %}
         {% if person.name == page.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -63,7 +63,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2 class="title">{{ person.name }}</h2>
-              <h2 class="info">{{ person.title }}</h2>
+              {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -73,7 +73,7 @@ class: about
       {% if forloop.index0 == 2 or forloop.index0 == 3 %}
         {% if person.name == page.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -105,7 +105,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2 class="title">{{ person.name }}</h2>
-              <h2 class="info">{{ person.title }}</h2>
+              {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -115,7 +115,7 @@ class: about
       {% if forloop.index0 == 4 or forloop.index0 == 5 %}
         {% if person.name == page.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -147,7 +147,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2 class="title">{{ person.name }}</h2>
-              <h2 class="info">{{ person.title }}</h2>
+              {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -157,7 +157,7 @@ class: about
       {% if forloop.index0 == 6 or forloop.index0 == 7 %}
         {% if person.name == page.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -189,7 +189,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2 class="title">{{ person.name }}</h2>
-              <h2 class="info">{{ person.title }}</h2>
+              {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -199,7 +199,7 @@ class: about
       {% if forloop.index0 == 8 or forloop.index0 == 9 %}
         {% if person.name == page.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -231,7 +231,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2 class="title">{{ person.name }}</h2>
-              <h2 class="info">{{ person.title }}</h2>
+              {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -241,7 +241,7 @@ class: about
       {% if forloop.index0 == 10 or forloop.index0 == 11 %}
         {% if person.name == page.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -273,7 +273,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
               <h2 class="title">{{ person.name }}</h2>
-              <h2 class="info">{{ person.title }}</h2>
+              {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -283,7 +283,7 @@ class: about
       {% if forloop.index0 == 12 or forloop.index0 == 13 %}
         {% if person.name == page.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -315,7 +315,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
             <h2 class="title">{{ person.name }}</h2>
-            <h2 class="info">{{ person.title }}</h2>
+            {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -325,7 +325,7 @@ class: about
       {% if forloop.index0 < 4 %}
         {% if page.name == person.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -358,7 +358,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
             <h2 class="title">{{ person.name }}</h2>
-            <h2 class="info">{{ person.title }}</h2>
+            {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -368,7 +368,7 @@ class: about
       {% if forloop.index0 > 3 and forloop.index0 < 8 %}
         {% if page.name == person.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}
@@ -401,7 +401,7 @@ class: about
           <div class="block-inner">
             <a href="{{ person.url }}">
             <h2 class="title">{{ person.name }}</h2>
-            <h2 class="info">{{ person.title }}</h2>
+            {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
             </a>
           </div>
         </div>
@@ -411,7 +411,7 @@ class: about
       {% if forloop.index0 > 7 and forloop.index0 < 12 %}
         {% if page.name == person.name %}
           <div class="copy">
-            <h2 class="name">{{ person.name }}, <span>{{ person.title }}</span></h2>
+            <h2 class="name">{{ person.name }}{% if person.show_position %}, <span>{{ person.position }}</span>{% endif %}</h2>
             <div class="bio">{{ content }}</div>
           </div>
           {% if person.linkedin or person.email %}

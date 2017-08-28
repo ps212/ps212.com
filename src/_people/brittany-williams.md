@@ -1,6 +1,7 @@
 ---
 name: Brittany Williams
-title: Program Manager
+position: Program Manager
+show_position: false
 email: brittany.williams@ps212.com
 linkedin: https://www.linkedin.com/in/brittanyjwilliams
 photo_path: /uploads/brittany.png

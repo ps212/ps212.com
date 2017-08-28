@@ -16,7 +16,8 @@
     <div class="block-inner">
       <a href="{{ person.url }}">
       <h2 class="title">{{ person.name }}</h2>
-      <h2 class="info">{{ person.title }}</h2>
+      {% if person.show_position %}<h2 class="info">{{ person.position }}</h2>{% endif %}
+
       </a>
     </div>
   </div>
