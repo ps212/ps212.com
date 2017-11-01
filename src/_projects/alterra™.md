@@ -1,5 +1,5 @@
 ---
-project_title: Alterra™
+project_title: Alterra
 project_info: Locomotive Engine
 project_type: Naming
 draft: false
