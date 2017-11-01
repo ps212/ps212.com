@@ -4,7 +4,7 @@ project_info: Corporate Sponsor Lock-up and Supporting Visual System
 project_type: Design
 draft: false
 link: false
-sort_number: 62
+sort_number: 63
 project_thumbnail_image: /uploads/shanghai-thumb.jpg
 content_section:
   - section_text_markdown:
