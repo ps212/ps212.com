@@ -4,7 +4,7 @@ project_info: Supporting Visual System and Suite of Applications
 project_type: Design
 draft: false
 link: false
-sort_number: 60
+sort_number: 61
 project_thumbnail_image: /uploads/ge-recruiting-thumb.jpg
 content_section:
   - section_text_markdown:
