@@ -4,7 +4,7 @@ project_info: Naming and Badge System for Microsoft Rewards Program
 project_type: Naming and Design
 draft: false
 link: false
-sort_number: 8
+sort_number: 9
 project_thumbnail_image: /uploads/msft-badges-thumb.jpg
 content_section:
   - section_text_markdown:
