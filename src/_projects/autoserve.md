@@ -1,5 +1,5 @@
 ---
-project_title: AutoServe™
+project_title: AutoServe
 project_info: Healthcare Workflow System
 project_type: Naming
 draft: false
