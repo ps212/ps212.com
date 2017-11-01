@@ -1,5 +1,5 @@
 ---
-project_title: Etsy Studio™
+project_title: Etsy Studio
 project_info: Etsy Marketplace
 project_type: Naming
 draft: false
