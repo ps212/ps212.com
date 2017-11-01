@@ -1,10 +1,10 @@
 ---
-project_title: TrueChoice™
+project_title: TrueChoice
 project_info: Commercial Engine Services
 project_type: Naming
 draft: false
 link: false
-sort_number: 42
+sort_number: 43
 project_thumbnail_image: /uploads/istock-545809476-thumb.jpg
 content_section:
   - section_text_markdown:
