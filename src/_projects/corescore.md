@@ -1,10 +1,10 @@
 ---
-project_title: Corescore™
+project_title: Corescore
 project_info: Visceral Fat Exam
 project_type: Naming
 draft: false
 link: false
-sort_number: 63
+sort_number: 64
 project_thumbnail_image: /uploads/istock-637555066-thumb.jpg
 content_section:
   - section_text_markdown:
