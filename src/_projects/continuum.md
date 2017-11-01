@@ -1,10 +1,10 @@
 ---
-project_title: Continuum™
+project_title: Continuum
 project_info: Phone and PC Integration
 project_type: Naming
 draft: false
 link: false
-sort_number: 26
+sort_number: 27
 project_thumbnail_image: /uploads/istock-187625870-thumb.jpg
 content_section:
   - section_text_markdown:
