@@ -1,10 +1,10 @@
 ---
-project_title: Nexen™
+project_title: Nexen
 project_info: Technology Platform
 project_type: Naming
 draft: false
 link: false
-sort_number: 33
+sort_number: 34
 project_thumbnail_image: /uploads/istock-616248212-yellow-thumb.jpg
 content_section:
   - section_text_markdown:
