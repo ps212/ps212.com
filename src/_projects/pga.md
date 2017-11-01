@@ -4,7 +4,7 @@ project_info: Organization-wide Supporting Visual System
 project_type: Design
 draft: false
 link: false
-sort_number: 34
+sort_number: 35
 project_thumbnail_image: /uploads/pga-thumb.jpg
 content_section:
   - section_text_markdown:
