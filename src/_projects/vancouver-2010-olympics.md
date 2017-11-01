@@ -4,7 +4,7 @@ project_info: Worldwide Partner Supporting Visual System
 project_type: Design
 draft: false
 link: false
-sort_number: 39
+sort_number: 40
 project_thumbnail_image: /uploads/ge-vancouver-thumb.jpg
 content_section:
   - section_text_markdown:
