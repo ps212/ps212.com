@@ -1,10 +1,10 @@
 ---
-project_title: "Lowe's Consumer Credit Card"
+project_title: Lowe's Consumer Credit Card
 project_info: Supporting Visual System
 project_type: Design
 draft: false
 link: false
-sort_number: 44
+sort_number: 45
 project_thumbnail_image: /uploads/lowes-poster-thumb.jpg
 content_section:
   - section_text_markdown:
