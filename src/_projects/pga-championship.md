@@ -4,7 +4,7 @@ project_info: Event Logo
 project_type: Strategy and Design
 draft: false
 link: false
-sort_number: 51
+sort_number: 52
 project_thumbnail_image: /uploads/pga-championship-thumb.jpg
 content_section:
   - section_text_markdown:
