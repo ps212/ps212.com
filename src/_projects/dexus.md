@@ -1,10 +1,10 @@
 ---
-project_title: Dexus™
+project_title: Dexus
 project_info: Healthcare Image Management System
 project_type: Naming
 draft: false
 link: false
-sort_number: 18
+sort_number: 19
 project_thumbnail_image: /uploads/istock-500905104-thumb.jpg
 content_section:
   - section_text_markdown:
