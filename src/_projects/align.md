@@ -3,7 +3,7 @@ project_title: Align
 project_info: Circadian Rhythm Light Bulb
 project_type: Naming
 draft: false
-link: false
+link: true
 sort_number: 60
 project_thumbnail_image: /uploads/istock-92120123-thumb.jpg
 content_section:
