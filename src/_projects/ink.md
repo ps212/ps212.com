@@ -4,7 +4,7 @@ project_info: The power of Windows in the tip of a pen
 project_type: Naming
 draft: false
 link: true
-sort_number: 10
+sort_number: 9
 project_thumbnail_image: /uploads/istock-537462856-thumb.jpg
 content_section:
   - section_text_markdown: >-
