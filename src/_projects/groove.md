@@ -1,10 +1,10 @@
 ---
-project_title: Groove™
+project_title: Groove
 project_info: Music Player
 project_type: Naming
 draft: false
 link: false
-sort_number: 14
+sort_number: 15
 project_thumbnail_image: /uploads/istock-513475480-thumb.jpg
 content_section:
   - section_text_markdown:
