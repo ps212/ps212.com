@@ -7,6 +7,8 @@ link: true
 sort_number: 1
 project_thumbnail_image: /uploads/istock-628515710-thumb.jpg
 content_section:
+  - section_text_markdown:
+    section_image: /uploads/nytimes-01.jpg
   - section_text_markdown: >-
       Formerly Coach Inc., Tapestry is the new name for the holding company that
       houses the Coach, Kate Spade and Stuart Weitzman brands. In the name
@@ -15,7 +17,7 @@ content_section:
       color, stories, creativity and craftsmanship. It expresses the diversity
       and collaborative nature of the company culture as well as its shared
       values of being optimistic, innovative and inclusive.
-    section_image: /uploads/104765897-tapestry-lobby-10-11-17-1.jpg
+    section_image: /uploads/104765897-tapestry-lobby-10-11-17-2.jpg
 ---
 DO NOT ADD POST CONTENT HERE!
 
