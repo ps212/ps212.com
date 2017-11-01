@@ -1,10 +1,10 @@
 ---
-project_title: GE Telligent™ Light Bulb
+project_title: GE Telligent Light Bulb
 project_info: Package Design
 project_type: Design
 draft: false
 link: false
-sort_number: 31
+sort_number: 32
 project_thumbnail_image: /uploads/telligentpackaging-thumb.jpg
 content_section:
   - section_text_markdown:
