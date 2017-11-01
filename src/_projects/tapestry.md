@@ -1,6 +1,6 @@
 ---
 project_title: Tapestry
-project_info:
+project_info: A new name for Coach Inc.
 project_type: Naming
 draft: false
 link: true
