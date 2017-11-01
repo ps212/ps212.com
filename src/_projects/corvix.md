@@ -1,10 +1,10 @@
 ---
-project_title: Corvix™
+project_title: Corvix
 project_info: Data Visualization Tool
 project_type: Naming
 draft: false
 link: false
-sort_number: 16
+sort_number: 17
 project_thumbnail_image: /uploads/corvix-thumb.jpg
 content_section:
   - section_text_markdown:
