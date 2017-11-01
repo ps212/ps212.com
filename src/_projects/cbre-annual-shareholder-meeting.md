@@ -4,7 +4,7 @@ project_info: 'Meeting Theme, Visual Toolkit, and Assets'
 project_type: Strategy and Design
 draft: false
 link: false
-sort_number: 17
+sort_number: 18
 project_thumbnail_image: /uploads/cbrebusinessoutlook-thumb.jpg
 content_section:
   - section_text_markdown:
