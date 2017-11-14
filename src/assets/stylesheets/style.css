@@ -1234,7 +1234,8 @@ header {
         .project main section.hero div.hero-inner p span a:hover {
           color: #335769; }
     .project main section.hero h1 {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      font-weight: 100; }
 
 .project h5 {
   margin: 2.5rem 0 .5rem 0;

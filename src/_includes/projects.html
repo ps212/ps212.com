@@ -6,7 +6,7 @@
   "item.keys contains 'sort_number'" %}
   {% assign projects = sorted | concat: unsorted %}
 
-  {% for project in projects | limit: 16 %}
+  {% for project in projects %}
 
   <div class="square-index" style="background-size:cover">
     <img ix-path="{{ project.project_thumbnail_image | replace: '/uploads/', ''}}"
