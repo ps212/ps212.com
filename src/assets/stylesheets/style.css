@@ -1043,12 +1043,16 @@ header {
     .contact .hero {
       padding-bottom: 2rem !important; } }
   .contact .hero h1 {
-    font-weight: 100; }
+    font-weight: 100;
+    margin-bottom: 1.5rem; }
     .contact .hero h1 a {
       color: #335769;
       text-decoration: none; }
       .contact .hero h1 a:hover {
         color: #ed1417; }
+  .contact .hero h1.location {
+    margin-bottom: 0px;
+    font-weight: 500; }
 
 @media screen and (min-width: 48.0625em) {
   .about main {
@@ -1796,6 +1800,7 @@ header {
         margin-right: 0; } }
 
 footer {
+  border-top: 1px solid #ed1417;
   color: #335769;
   margin-top: 1.5rem;
   margin-bottom: 2rem; }
@@ -1805,15 +1810,21 @@ footer {
   @media (min-width: 667px) {
     footer {
       text-align: left; } }
+  footer ul.left {
+    float: left; }
+  footer ul.right {
+    float: right; }
+    footer ul.right li.location {
+      color: #ed1417;
+      font-weight: 500; }
+    footer ul.right li.first {
+      padding-right: 1rem; }
   footer ul {
-    border-top: 1px solid #ed1417;
     display: block;
-    width: 100%;
     list-style-type: none;
     padding-left: 0px;
     padding-top: 1rem;
-    text-align: left;
-    margin-top: .5rem; }
+    text-align: left; }
     @media (min-width: 300px) and (max-width: 666px) {
       footer ul {
         display: block; } }
@@ -1824,14 +1835,12 @@ footer {
       white-space: nowrap;
       color: #335769;
       text-decoration: none; }
-      @media screen and (min-width: 667px) {
-        footer ul li {
-          padding-right: .5rem; } }
+      footer ul li.email {
+        padding-right: 1rem; }
       @media (min-width: 300px) and (max-width: 666px) {
         footer ul li {
           text-align: left;
           display: block;
-          margin-right: .5rem;
           line-height: 1.4rem;
           font-size: .75rem; } }
       @media (min-width: 667px) {

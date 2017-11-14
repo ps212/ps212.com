@@ -1,6 +1,7 @@
 @import "modules/mixins";
 
 footer {
+  border-top: 1px solid $myred;
   // padding-left: 0px;
   color: $text;
   margin-top: 1.5rem;
@@ -11,15 +12,26 @@ footer {
   @include breakpoint(667px) {
     text-align: left;
   }
+  ul.left {
+    float: left;
+  }
+  ul.right {
+    float: right;
+    li.location {
+      color: $myred;
+      font-weight: 500;
+    }
+    li.first {
+      padding-right: 1rem;
+    }
+  }
   ul {
-    border-top: 1px solid $myred;
     display: block;
-    width: 100%;
     list-style-type: none;
     padding-left: 0px;
     padding-top: 1rem;
     text-align: left;
-    margin-top: .5rem;
+    // margin-top: .5rem;
     @include breakpoint(300px, 666px) {
       display: block;
     }
@@ -28,13 +40,16 @@ footer {
     }
     li {
       white-space: nowrap;
-      @include media(667px) {
-        padding-right: .5rem;
+      // @include media(667px) {
+      //   padding-right: .5rem;
+      // }
+      &.email {
+        padding-right: 1rem;
       }
       @include breakpoint(300px, 666px) {
         text-align: left;
         display: block;
-        margin-right: .5rem;
+        // margin-right: .5rem;
         line-height: 1.4rem;
         font-size: .75rem;
       }

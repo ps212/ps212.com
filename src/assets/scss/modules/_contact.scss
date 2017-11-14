@@ -7,6 +7,7 @@
     }
     h1 {
       font-weight: 100;
+      margin-bottom: 1.5rem;
       a {
         color: $text;
         text-decoration: none;
@@ -14,6 +15,10 @@
           color: $myred;
         }
       }
+    }
+    h1.location {
+      margin-bottom: 0px;
+      font-weight: 500;
     }
   }
 }
