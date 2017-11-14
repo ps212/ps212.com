@@ -1,10 +1,5 @@
 <section class="projects">
-  {% assign sorted = site.projects | where_exp:"item",
-  "item.sort_number > 0" %}
-  {% assign sorted = sorted | where:'draft','false' | sort:'sort_number' %}
-  {% assign unsorted = site.projects | where_exp:"item",
-  "item.keys contains 'sort_number'" %}
-  {% assign projects = sorted | concat: unsorted %}
+  {% assign projects = site.projects | sort:'sort_number' %}
 
   {% for project in projects %}
 
